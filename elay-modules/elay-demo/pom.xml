@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>org.elay</groupId>
+        <artifactId>elay-modules</artifactId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>elay-demo</artifactId>
+
+    <description>
+        demo模块
+    </description>
+
+    <dependencies>
+
+        <!-- 通用工具-->
+        <dependency>
+            <groupId>org.elay</groupId>
+            <artifactId>elay-common-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.elay</groupId>
+            <artifactId>elay-common-doc</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.elay</groupId>
+            <artifactId>elay-common-sms</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.elay</groupId>
+            <artifactId>elay-common-mail</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.elay</groupId>
+            <artifactId>elay-common-redis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.elay</groupId>
+            <artifactId>elay-common-idempotent</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.elay</groupId>
+            <artifactId>elay-common-mybatis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.elay</groupId>
+            <artifactId>elay-common-log</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.elay</groupId>
+            <artifactId>elay-common-excel</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.elay</groupId>
+            <artifactId>elay-common-security</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.elay</groupId>
+            <artifactId>elay-common-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.elay</groupId>
+            <artifactId>elay-common-ratelimiter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.elay</groupId>
+            <artifactId>elay-common-translation</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.elay</groupId>
+            <artifactId>elay-common-sensitive</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.elay</groupId>
+            <artifactId>elay-common-encrypt</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.elay</groupId>
+            <artifactId>elay-common-tenant</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.elay</groupId>
+            <artifactId>elay-common-websocket</artifactId>
+        </dependency>
+
+    </dependencies>
+
+</project>

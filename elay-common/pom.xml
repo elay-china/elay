@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>elay</artifactId>
+        <groupId>org.elay</groupId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>elay-common-bom</module>
+        <module>elay-common-social</module>
+        <module>elay-common-core</module>
+        <module>elay-common-doc</module>
+        <module>elay-common-excel</module>
+        <module>elay-common-idempotent</module>
+        <module>elay-common-job</module>
+        <module>elay-common-log</module>
+        <module>elay-common-mail</module>
+        <module>elay-common-mybatis</module>
+        <module>elay-common-oss</module>
+        <module>elay-common-ratelimiter</module>
+        <module>elay-common-redis</module>
+        <module>elay-common-satoken</module>
+        <module>elay-common-security</module>
+        <module>elay-common-sms</module>
+        <module>elay-common-web</module>
+        <module>elay-common-translation</module>
+        <module>elay-common-sensitive</module>
+        <module>elay-common-json</module>
+        <module>elay-common-encrypt</module>
+        <module>elay-common-tenant</module>
+        <module>elay-common-websocket</module>
+        <module>elay-common-sse</module>
+    </modules>
+
+    <artifactId>elay-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        common 通用模块
+    </description>
+
+</project>

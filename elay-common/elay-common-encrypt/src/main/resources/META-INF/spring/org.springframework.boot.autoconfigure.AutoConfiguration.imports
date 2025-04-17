@@ -1,0 +1,3 @@
+org.elay.common.encrypt.config.EncryptorAutoConfiguration
+org.elay.common.encrypt.config.ApiDecryptAutoConfiguration
+

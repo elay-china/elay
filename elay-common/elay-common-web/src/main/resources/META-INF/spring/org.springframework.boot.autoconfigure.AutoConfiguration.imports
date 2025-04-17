@@ -1,0 +1,5 @@
+org.elay.common.web.config.CaptchaConfig
+org.elay.common.web.config.FilterConfig
+org.elay.common.web.config.I18nConfig
+org.elay.common.web.config.ResourcesConfig
+org.elay.common.web.config.UndertowConfig
